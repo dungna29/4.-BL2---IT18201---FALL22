@@ -36,8 +36,6 @@ namespace BAI_1_0_LamQuenVoiCsharp
             Console.WriteLine("Chào các bạn đến với C#1");
             Console.WriteLine("Chào các bạn đến với C#1");
 
-
-
         }
         /*
          * 1. Code

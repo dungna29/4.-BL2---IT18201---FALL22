@@ -1,0 +1,8 @@
+D:\Github_Dungna29\1. IT18201_NET101_FALL2_BLOCK2\1_IT18201_NET101_FALL2_BLOCK2\BAI_1_2_NhapXuat\bin\Debug\BAI_1_2_NhapXuat.exe.config
+D:\Github_Dungna29\1. IT18201_NET101_FALL2_BLOCK2\1_IT18201_NET101_FALL2_BLOCK2\BAI_1_2_NhapXuat\bin\Debug\BAI_1_2_NhapXuat.exe
+D:\Github_Dungna29\1. IT18201_NET101_FALL2_BLOCK2\1_IT18201_NET101_FALL2_BLOCK2\BAI_1_2_NhapXuat\bin\Debug\BAI_1_2_NhapXuat.pdb
+D:\Github_Dungna29\1. IT18201_NET101_FALL2_BLOCK2\1_IT18201_NET101_FALL2_BLOCK2\BAI_1_2_NhapXuat\obj\Debug\BAI_1_2_NhapXuat.csproj.AssemblyReference.cache
+D:\Github_Dungna29\1. IT18201_NET101_FALL2_BLOCK2\1_IT18201_NET101_FALL2_BLOCK2\BAI_1_2_NhapXuat\obj\Debug\BAI_1_2_NhapXuat.csproj.SuggestedBindingRedirects.cache
+D:\Github_Dungna29\1. IT18201_NET101_FALL2_BLOCK2\1_IT18201_NET101_FALL2_BLOCK2\BAI_1_2_NhapXuat\obj\Debug\BAI_1_2_NhapXuat.csproj.CoreCompileInputs.cache
+D:\Github_Dungna29\1. IT18201_NET101_FALL2_BLOCK2\1_IT18201_NET101_FALL2_BLOCK2\BAI_1_2_NhapXuat\obj\Debug\BAI_1_2_NhapXuat.exe
+D:\Github_Dungna29\1. IT18201_NET101_FALL2_BLOCK2\1_IT18201_NET101_FALL2_BLOCK2\BAI_1_2_NhapXuat\obj\Debug\BAI_1_2_NhapXuat.pdb
