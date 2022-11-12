@@ -1,0 +1,8 @@
+D:\Github_Dungna29\1. IT18201_NET101_FALL2_BLOCK2\1_IT18201_NET101_FALL2_BLOCK2\BAI_1_6_ToanTuBaNgoi\bin\Debug\BAI_1_6_ToanTuBaNgoi.exe.config
+D:\Github_Dungna29\1. IT18201_NET101_FALL2_BLOCK2\1_IT18201_NET101_FALL2_BLOCK2\BAI_1_6_ToanTuBaNgoi\bin\Debug\BAI_1_6_ToanTuBaNgoi.exe
+D:\Github_Dungna29\1. IT18201_NET101_FALL2_BLOCK2\1_IT18201_NET101_FALL2_BLOCK2\BAI_1_6_ToanTuBaNgoi\bin\Debug\BAI_1_6_ToanTuBaNgoi.pdb
+D:\Github_Dungna29\1. IT18201_NET101_FALL2_BLOCK2\1_IT18201_NET101_FALL2_BLOCK2\BAI_1_6_ToanTuBaNgoi\obj\Debug\BAI_1_6_ToanTuBaNgoi.csproj.AssemblyReference.cache
+D:\Github_Dungna29\1. IT18201_NET101_FALL2_BLOCK2\1_IT18201_NET101_FALL2_BLOCK2\BAI_1_6_ToanTuBaNgoi\obj\Debug\BAI_1_6_ToanTuBaNgoi.csproj.SuggestedBindingRedirects.cache
+D:\Github_Dungna29\1. IT18201_NET101_FALL2_BLOCK2\1_IT18201_NET101_FALL2_BLOCK2\BAI_1_6_ToanTuBaNgoi\obj\Debug\BAI_1_6_ToanTuBaNgoi.csproj.CoreCompileInputs.cache
+D:\Github_Dungna29\1. IT18201_NET101_FALL2_BLOCK2\1_IT18201_NET101_FALL2_BLOCK2\BAI_1_6_ToanTuBaNgoi\obj\Debug\BAI_1_6_ToanTuBaNgoi.exe
+D:\Github_Dungna29\1. IT18201_NET101_FALL2_BLOCK2\1_IT18201_NET101_FALL2_BLOCK2\BAI_1_6_ToanTuBaNgoi\obj\Debug\BAI_1_6_ToanTuBaNgoi.pdb

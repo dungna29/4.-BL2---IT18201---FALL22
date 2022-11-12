@@ -56,13 +56,63 @@ namespace BAI_1_5_CauLenhReNhanh
         static void Main(string[] args)
         {
             double diemCsharp1 = 4.9;
+            //if + tab
             if (diemCsharp1 >= 5)
             {
                 Console.WriteLine("Chúc mừng bạn đã qua môn");
-                return;
+                return;//Ngắt toàn bộ phương thức
             }
 
             Console.WriteLine("Chúc mừng bạn đã mất 672k");
+
+            //Else: Ngược lại mọi trường hợp
+            if (diemCsharp1 >=5)
+            {
+                Console.WriteLine("Chúc mừng bạn đã qua môn");
+            }
+            else
+            {
+                Console.WriteLine("Chúc mừng bạn đã mất 672k");
+            }
+
+            //Else If:
+            /* Ví dụ: Nếu qua môn C#1
+                5 đến 6 = Iphone 8
+                6 đến 8 = Iphone XS MAX
+                8 đến 10 = Iphone 14
+            Sử dụng If Else  - Không được dùng Return, không được dùng chỉ if không. Bắt buộc dùng If Else
+            */
+            if (diemCsharp1 >=5 && diemCsharp1 < 6)
+            {
+                Console.WriteLine("Iphone 8");
+            }
+            else
+            {
+                if (diemCsharp1 >= 6 && diemCsharp1 < 8)
+                {
+                    Console.WriteLine("Iphone XS");
+                }
+                else
+                {
+                    Console.WriteLine("Iphone 14");
+                }
+            }
+
+            if (diemCsharp1 >= 5 && diemCsharp1 < 6)
+            {
+                Console.WriteLine("Iphone 8");
+            }else if (diemCsharp1 >= 6 && diemCsharp1 < 8)
+            {
+                Console.WriteLine("Iphone XS");
+            }else if (diemCsharp1 >= 8 && diemCsharp1 <= 10)
+            {
+                Console.WriteLine("Iphone 14");
+            }
+            else
+            {
+                Console.WriteLine("1 Túi đồ nghề đánh giày");
+            }
+
         }
     }
 }
