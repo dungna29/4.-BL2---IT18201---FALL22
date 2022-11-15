@@ -1,0 +1,8 @@
+D:\Github_Dungna29\1. IT18201_NET101_FALL2_BLOCK2\1_IT18201_NET101_FALL2_BLOCK2\BAI_1_6_Switch_Case\bin\Debug\BAI_1_6_Switch_Case.exe.config
+D:\Github_Dungna29\1. IT18201_NET101_FALL2_BLOCK2\1_IT18201_NET101_FALL2_BLOCK2\BAI_1_6_Switch_Case\bin\Debug\BAI_1_6_Switch_Case.exe
+D:\Github_Dungna29\1. IT18201_NET101_FALL2_BLOCK2\1_IT18201_NET101_FALL2_BLOCK2\BAI_1_6_Switch_Case\bin\Debug\BAI_1_6_Switch_Case.pdb
+D:\Github_Dungna29\1. IT18201_NET101_FALL2_BLOCK2\1_IT18201_NET101_FALL2_BLOCK2\BAI_1_6_Switch_Case\obj\Debug\BAI_1_6_Switch_Case.csproj.AssemblyReference.cache
+D:\Github_Dungna29\1. IT18201_NET101_FALL2_BLOCK2\1_IT18201_NET101_FALL2_BLOCK2\BAI_1_6_Switch_Case\obj\Debug\BAI_1_6_Switch_Case.csproj.SuggestedBindingRedirects.cache
+D:\Github_Dungna29\1. IT18201_NET101_FALL2_BLOCK2\1_IT18201_NET101_FALL2_BLOCK2\BAI_1_6_Switch_Case\obj\Debug\BAI_1_6_Switch_Case.csproj.CoreCompileInputs.cache
+D:\Github_Dungna29\1. IT18201_NET101_FALL2_BLOCK2\1_IT18201_NET101_FALL2_BLOCK2\BAI_1_6_Switch_Case\obj\Debug\BAI_1_6_Switch_Case.exe
+D:\Github_Dungna29\1. IT18201_NET101_FALL2_BLOCK2\1_IT18201_NET101_FALL2_BLOCK2\BAI_1_6_Switch_Case\obj\Debug\BAI_1_6_Switch_Case.pdb

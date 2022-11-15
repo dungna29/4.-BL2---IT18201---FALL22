@@ -75,6 +75,32 @@ namespace BAI_1_8_VongLap
             } while (j<5);
 
             //In Full Bảng Cửu Chương bằng Do hoặc While
+
+            //15 Phút ghi lại bảng cửu chương và thử triển khai lại.
+            /*
+             * 2 x 1 = 2
+             * 2 x 2 = 4
+             * 2 x 3 = 6
+             * ...
+             * 2 x 9 = 18
+             *
+             * 3 x 1
+             * 3 x 2
+             */
+            //Bước 1: Xác định số lượng biến
+            int a = 1,b = 1;
+            //Bước 2: Triển khai
+            do
+            {
+                Console.WriteLine("Bảng Nhân " + a);
+                do
+                {
+                    Console.WriteLine($"{a} x {b} = {a*b}");
+                    b++;
+                } while (b<10);
+                b = 1;//Reset lại b
+                a++;
+            } while (a <= 10);
         }
     }
 }
