@@ -17,7 +17,7 @@ namespace BAI_2_1_OOP
         private string queQuan;
         private int ns;
         private int gt;//1 = Nam , 0 = Nữ
-        public string truongHoc = "FPOLY";
+        private string truongHoc = "FPOLY";
 
         //Phần 2: Constructor - Hàm tạo
         /*
@@ -38,14 +38,13 @@ namespace BAI_2_1_OOP
           1. Chuột phải vào Class đối tượng chọn Quick Actions....
           2. Generate Contructor và bấm ok
        */
-        public SinhVien(string Ten1, string msv, string queQuan, int ns, int gt, string truongHoc)
+        public SinhVien(string Ten1, string msv, string queQuan, int ns, int gt)
         {
             ten = Ten1;
             this.msv = msv;
             this.queQuan = queQuan;
             this.ns = ns;
             this.gt = gt;
-            this.truongHoc = truongHoc;
             //this: Dùng để tham chiếu đến thuộc tính hoặc phương của lớp hiện tại.
         }
         //Phần 3:Triển khai property của thuộc tính vì các thuộc tính bị private không thể truy cập trự tiếp
@@ -88,7 +87,7 @@ namespace BAI_2_1_OOP
         public string TruongHoc
         {
             get => truongHoc;
-            set => truongHoc = value;
+            //set => truongHoc = value;
         }
 
         //Phần 4: Các phương thức của đối tượng

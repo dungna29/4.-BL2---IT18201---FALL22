@@ -65,12 +65,22 @@ namespace BAI_2_1_OOP
             SinhVien sv1;//Khai báo 1 đối tượng có kiểu dữ liệu là SinhVien
             sv1 = new SinhVien();//Khởi tạo 1 đối tượng sinh viên
 
-            SinhVien sv3 = new SinhVien("Hoàng", "PH123", "HN", 2000, 1, "FPOLY");//Tham số phải đúng thứ tự và kiểu dữ liệu.
+            SinhVien sv3 = new SinhVien("Hoàng", "PH123", "HN", 2000, 1);//Tham số phải đúng thứ tự và kiểu dữ liệu.
 
             //Phần 2: IN thông tin ra màn hình
-            sv1.InRaManHinh();
-            sv3.InRaManHinh();
+            sv1.InRaManHinh();//Đối tượng 1 Không có giá trị
+            sv3.InRaManHinh();//Đối tượng 3 có giá trị vì khi khởi tạo dùng constructor có tham số
 
+            //Phần 3: Gán giá trị cho các thuộc tính thông qua property
+            //sv1 = "Dũng"; Gán sai kiểu dữ liệu
+            //muốn gọi các thuộc tính hoặc phương thức cần phải CHẤM .
+            sv1.Ten = "Hoàng";
+            sv1.Msv = "PH123";
+            sv1.Gt = 0;
+            //sv1.truongHoc = "1";
+            //sv1.TruongHoc = " 1";
+            sv1.InRaManHinh();
+            Console.WriteLine(sv1.TruongHoc);// Sử dụng từng thuộc tính với các mục đích khác nhau.
         }
     }
 }
