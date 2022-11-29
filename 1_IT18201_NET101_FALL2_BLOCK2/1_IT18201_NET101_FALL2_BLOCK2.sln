@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BAI_2_3_List", "BAI_2_3_Lis
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BAI_TAP_CRUD_OOP_LIST", "BAI_TAP_CRUD_OOP_LIST\BAI_TAP_CRUD_OOP_LIST.csproj", "{A2EF4BD1-1167-4CC9-9A65-8ED7F45E85E1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BAI_2_4_KeThua", "BAI_2_4_KeThua\BAI_2_4_KeThua.csproj", "{A067B0E5-961E-4E7D-8B77-0F51E9E316F7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{A2EF4BD1-1167-4CC9-9A65-8ED7F45E85E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2EF4BD1-1167-4CC9-9A65-8ED7F45E85E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2EF4BD1-1167-4CC9-9A65-8ED7F45E85E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A067B0E5-961E-4E7D-8B77-0F51E9E316F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A067B0E5-961E-4E7D-8B77-0F51E9E316F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A067B0E5-961E-4E7D-8B77-0F51E9E316F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A067B0E5-961E-4E7D-8B77-0F51E9E316F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

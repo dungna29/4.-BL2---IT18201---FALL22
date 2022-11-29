@@ -37,27 +37,88 @@ namespace BAI_TAP_CRUD_OOP_LIST
                 _kem.Ma = Console.ReadLine();
                 Console.Write("Mời bạn nhập Hương Vị: ");
                 _kem.HuongVi = Console.ReadLine();
-                Console.Write("Mời bạn nhập loại kem: ");
-                _kem.LoaiKem = Convert.ToInt32(Console.ReadLine());
-                _lstKems.Add(_kem);
+                Console.WriteLine("Mời bạn nhập loại kem: ");
+                Console.Write("1. Kem ốc quế ");
+                Console.Write("2. Kem que");
+                string temp = Console.ReadLine();
+                switch (temp)
+                {
+                    case "1":
+                        _kem.LoaiKem = 1;
+                        break;
+                    case "2":
+                        _kem.LoaiKem = 2;
+                        break;
+                    default:
+                        Console.WriteLine("Loại kem bạn chọn không có. Chúng sẽ để mặc định là Kem ốc quế");
+                        _kem.LoaiKem = 1;
+                        break;
+                }
+                _lstKems.Add(_kem);//Sau khi nhập thông tin cho 1 đối tượng kem thì sẽ add đối tượng vào trong List.
             }
 
             Console.WriteLine("Thêm thành công.");
         }
         public void SuaKem()
         {
+            Console.Write("Mời bạn nhập mã: ");
+            _input = Console.ReadLine();
+            for (int i = 0; i < _lstKems.Count; i++)
+            {
+                if (_lstKems[i].Ma.ToLower() == _input.ToLower())
+                {
+                    // Làm đúng phải sử dụng switchCase để chọn thuộc tính cần sửa.
+                    Console.WriteLine("Mời bạn nhập tên mới: ");
+                    _lstKems[i].Ten = Console.ReadLine();
+                    return;
+                }
+            }
 
+            Console.WriteLine("Không tìm thấy");
         }
         public void XoaKem()
         {
+            Console.Write("Mời bạn nhập mã: ");
+            _input = Console.ReadLine();
+            for (int i = 0; i < _lstKems.Count; i++)
+            {
+                if (_lstKems[i].Ma.ToLower() == _input.ToLower())
+                {
+                    _lstKems.RemoveAt(i);
+                    Console.WriteLine("Xóa thành công");
+                    return;
+                }
+            }
 
+            Console.WriteLine("Không tìm thấy");
+        }
+        public void TimKiemKem()//Tìm kiếm tuyệt đối
+        {
+            Console.Write("Mời bạn nhập mã: ");
+            _input = Console.ReadLine();
+            _lstKems.Where(c=>c.Ma == _input).FirstOrDefault().InBingChilling();
+            //for (int i = 0; i < _lstKems.Count; i++)
+            //{
+            //    if (_lstKems[i].Ma.ToLower() == _input.ToLower())
+            //    {
+            //        _lstKems[i].InBingChilling();
+            //        return;
+            //    }
+            //}
+
+            //Console.WriteLine("Không tìm thấy");
         }
         public void InDsKem()
         {
             foreach (var x in _lstKems)
             {
-               x.InBingChilling();
+                x.InBingChilling();
             }
+        }
+        public void Sort()
+        {
+            _lstKems = _lstKems.OrderByDescending(c => c.LoaiKem).ToList();//Linq
+            _lstKems.Sort((x,y)=>x.Ma.CompareTo(y.Ma));//Sử dụng thư viện có sẵn.
         }
     }
 }
