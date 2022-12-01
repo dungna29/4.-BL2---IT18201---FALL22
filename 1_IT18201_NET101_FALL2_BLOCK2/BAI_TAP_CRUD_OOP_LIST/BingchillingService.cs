@@ -59,6 +59,17 @@ namespace BAI_TAP_CRUD_OOP_LIST
 
             Console.WriteLine("Thêm thành công.");
         }
+        public void ThemKem1()
+        {
+
+            _input = GetValueInput("số lượng");
+            for (int i = 0; i < Convert.ToInt32(_input); i++)
+            {
+                _lstKems.Add(new Kem(GetValueInput("tên"),GetValueInput("mã"),GetValueInput("hương vị"),Convert.ToInt32(GetValueInput("loại"))));
+            }
+
+            Console.WriteLine("Thêm thành công.");
+        }
         public void SuaKem()
         {
             Console.Write("Mời bạn nhập mã: ");
@@ -78,19 +89,15 @@ namespace BAI_TAP_CRUD_OOP_LIST
         }
         public void XoaKem()
         {
-            Console.Write("Mời bạn nhập mã: ");
-            _input = Console.ReadLine();
-            for (int i = 0; i < _lstKems.Count; i++)
+            int temp = GetIndexByMa();
+            if (temp == -1)
             {
-                if (_lstKems[i].Ma.ToLower() == _input.ToLower())
-                {
-                    _lstKems.RemoveAt(i);
-                    Console.WriteLine("Xóa thành công");
-                    return;
-                }
+                Console.WriteLine("Không tìm thấy");
+                return;
             }
+            _lstKems.RemoveAt(temp);
 
-            Console.WriteLine("Không tìm thấy");
+
         }
         public void TimKiemKem()//Tìm kiếm tuyệt đối
         {
@@ -119,6 +126,29 @@ namespace BAI_TAP_CRUD_OOP_LIST
         {
             _lstKems = _lstKems.OrderByDescending(c => c.LoaiKem).ToList();//Linq
             _lstKems.Sort((x,y)=>x.Ma.CompareTo(y.Ma));//Sử dụng thư viện có sẵn.
+        }
+
+        //Áp dụng phương thức trả về.
+        private string GetValueInput(string msg)
+        {
+            Console.Write($"Mời bạn nhập {msg}: ");
+            return Console.ReadLine();
+        }
+
+        private int GetIndexByMa()
+        {
+            string ma = GetValueInput("mã");
+            //Dùng for:
+            //for (int i = 0; i < _lstKems.Count; i++)
+            //{
+            //    if (_lstKems[i].Ma == ma)
+            //    {
+            //        return i;
+            //    }
+            //}
+            //Không dùng for
+            return _lstKems.FindIndex(c => c.Ma == ma);
+            //return -1;
         }
     }
 }
